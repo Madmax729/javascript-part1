@@ -19,7 +19,7 @@ let state;
 
 console.log(typeof name) // will tell what is the type of a name ie. string
 console.log(typeof age)  // will tell what is the type of a age is ie. number
-console.log(typeof null) // null is an object type 
+console.log(typeof occupation) // null is an object type 
 console.log(typeof state)
 
 
