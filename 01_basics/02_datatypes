@@ -1,0 +1,26 @@
+"use strict" // treat all JS code as new version 
+
+//alert(3+3) we use nodejs so it will throw error if we had in browser it will pop up the alert with it's output
+
+let name = "max"
+let age = 24
+let isloggedIn = false 
+let occupation = null
+let state;
+
+// let age = 24 ---> have the capacity to store the value till 2^53 
+// for higher than that number we use 'bigint'
+// string --> ""
+// boolean --> true/false
+// null --> standlone value (empty value)
+// undefined --> value is not assigned
+// symbol --> to identify the uniqueness of a variable
+// object 
+
+console.log(typeof name) // will tell what is the type of a name ie. string
+console.log(typeof age)  // will tell what is the type of a age is ie. number
+console.log(typeof null) // null is an object type 
+console.log(typeof state)
+
+
+//console.table(typeof[name,age,isloggedIn]) ----> does'nt tell the type

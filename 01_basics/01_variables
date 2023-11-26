@@ -1,0 +1,12 @@
+const accountId = 14450
+let accountEmail = "someone@gmail.com"
+var accountPassword = "12586"
+accountCity = "Mumbai"
+let accountState;
+
+// accountId = 12546   cannot overwrite
+// all others(line no. 2,3,4,5) can be overwrite
+
+console.log(accountId);
+
+console.table([accountEmail,accountPassword,accountCity,accountState])
