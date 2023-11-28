@@ -29,3 +29,35 @@ let somenumber = 33
 let stringNumber = String(somenumber)
 console.log(stringNumber);   // 33  will give the number
 console.log(typeof stringNumber) // but it is converted into string
+
+//**************operations******************
+console.log("************operations*************")
+
+
+let value = 5
+let negValue = -value
+console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2/2)
+// console.log(2*2)
+// console.log(2**3)      // 2^3
+// console.log(2%2)        //remainder
+
+let str1 = "hello"
+let str2 = " annita"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)                  //12
+console.log(1 + "2")                  //12
+console.log("1" + 2  + 2)             //122
+console.log(1 + 2 + "2")              //32
+
+console.log(+true)        //1
+console.log(+"")          //0
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter)          //101
