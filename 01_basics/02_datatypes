@@ -14,7 +14,7 @@ let state;
 // boolean --> true/false
 // null --> standlone value (empty value)
 // undefined --> value is not assigned
-// symbol --> to identify the uniqueness of a variable
+// Symbol --> to identify the uniqueness of a variable
 // object 
 
 console.log(typeof name) // will tell what is the type of a name ie. string
