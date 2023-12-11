@@ -22,5 +22,6 @@ let id = Symbol('123')
 let id2 = Symbol('123')
 console.log(id === id2)             //false
 
-// Statically typed language - A statically typed language is a programming language where the type of a variable is known at compile time. This means that the programmer must specify the variable's data type when it's declared.
+// Statically typed language - A statically typed language is a programming language where the type of a variable is known at compile time. 
+// This means that the programmer must specify the variable's data type when it's declared.
 // eg int,float,double,String etc...
